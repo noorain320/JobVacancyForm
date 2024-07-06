@@ -1,0 +1,182 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Job Vacancy Form</title>
+    </head>
+    <body>
+        <h1 align="center">Job Vacancy Form</h1>
+        <form action="">
+            <!-- Fieldset for Company Details -->
+            <fieldset style="background-color: rgba(252, 248, 248, 0.964);">
+                <legend align="left">Company Details</legend>
+                <p>
+                    <label for="companyName">Company Name</label>
+                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                    <label for="companyType">Company Type</label><br>
+                    <input type="text" name="companyName" placeholder="Enter Company Name" required size="30">
+                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                    <select name="companyType" id="" >
+                        <option value="" selected disabled>Select Company Type</option>
+                        <option value="">Phamaceuticals</option>
+                        <option value="">Finance and Accounting firm</option>
+                        <option value="">Automobiles</option>
+                        <option value="">Construction and Buildings</option>
+                        <option value="">Non-Profit Organization</option>
+                        <option value="">Oil and Fuel</option>
+                        <option value="">Steel and Metals</option>
+                        <option value="">Information Technology-Hardware</option>
+                        <option value="">Information Technology-Software</option>
+                    </select>
+                    <br><br>
+                    <label for="companyEmail">Company Email</label>
+                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                    <label for="companyPhone">Company Mobile Number</label><br>
+                    <input type="email" name="companyEmail" placeholder="E.g: talent.acquisition@company.com" size="30">
+                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                    <input type="tel" name="companyPhone" placeholder="Enter Company's Phone Number" id="" size="30" maxlength="10" minlength="10">
+                </p>
+            </fieldset>
+            <br>
+            <br>
+            <!-- Fieldset for Company Address Details -->
+            <fieldset style="background-color: rgba(252, 248, 248, 0.964);">
+                <legend align="center">Address Details</legend>
+                <p>
+                    <label for="doorNo">Door Number</label>
+                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                    <label for="locality">Locality</label><br>
+                    <input type="text" name="doorNo" placeholder="Enter Company Address - Door Number" required size="30">
+                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                    <input type="text" name="locality" placeholder="Enter Locality" required size="30">
+                    <br><br>
+                    <label for="city">City</label>
+                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                    &emsp;&emsp;&emsp;&ensp;
+                    <label for="state">State</label><br>
+                    <select name="city" id="">
+                        <option value="" selected disabled>Select City
+                            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</option>
+                        <option value="">Hyderabad</option>
+                        <option value="">Bangalore</option>
+                        <option value="">Mysore</option>
+                        <option value="">Pune</option>
+                        <option value="">Mumbai</option>
+                        <option value="">New Delhi</option>
+                        <option value="">Kolkata</option>
+                        <option value="">Mangalore</option>
+                        <option value="">Chennai</option>
+                        <option value="">Bhubaneshwar</option>
+                    </select>
+                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                    <select name="state" id="" >
+                        <option value="" selected disabled>Select State
+                            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;</option>
+                        <option value="">Telangana</option>
+                        <option value="">Karnataka</option>
+                        <option value="">Maharashtra</option>
+                        <option value="">Delhi</option>
+                        <option value="">West Bengal</option>
+                        <option value="">Tamil Nadu</option>
+                        <option value="">Odisha</option>
+                    </select>
+                    <br><br>
+                    <label for="pinCode">Pincode</label><br>
+                    <input type="text" name="pinCode" placeholder="PIN Code" size="84" maxlength="6" minlength="6" pattern="[0-9]{6}">
+                </p>
+            </fieldset>
+            <br><br>
+            <fieldset>
+                <legend align="center">Company Incharge Details</legend>
+            <!-- Fieldset for Company Incharge Details -->
+            <fieldset style="background-color: rgba(252, 248, 248, 0.964);">
+                <legend align="right">Incharge-1 Details</legend>
+                <p>
+                    <label for="employee1">Name of the Employee</label>
+                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                    &emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;
+                    <label for="designation1">Designation</label><br>
+                    <input type="text" name="employee1" placeholder="Enter Company Incharge 1 Name" required size="30">
+                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                    <select name="designation1" id="">
+                        <option value="" selected disabled>Select Position
+                            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;</option>
+                        <option value="">Consultant</option>
+                        <option value="">HR Coordinator</option>
+                        <option value="">HR Generalist</option>
+                        <option value="">Recruiter</option>
+                        <option value="">Recruitment Manager</option>
+                        <option value="">Talent Acquisition Specialist</option>
+                        <option value="">HR Analyst</option>
+                        <option value="">Personnel Manager</option>
+                        <option value="">Employee Relations Manager</option>
+                        <option value="">HR Director</option>
+                        <option value="">Chief HR Officer</option>
+                        <option value="">Compensation & Benefits Manager</option>
+                        <option value="">Director of Talent Acquisition </option>
+                    </select>
+                    <br><br>
+                    <label for="phone1">Contact Number</label>
+                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                    &emsp;
+                    <label for="email1">Email</label><br>
+                    <input type="tel" name="phone1" placeholder="Incharge 1 Phone Number" maxlength="10" minlength="10" size="30">
+                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                    <input type="email" name="email1" placeholder="Ex: <incharge1>@company.com" size="30">
+                    <br>
+                </p>
+            </fieldset>
+            <br>
+            <!-- Fieldset for Company Incharge-2 Details -->
+            <fieldset style="background-color: rgba(252, 248, 248, 0.964);">
+                <legend align="right">Incharge-2 Details</legend>
+                <p>
+                    <label for="employee2">Name of the Employee</label>
+                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                    &emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;
+                    <label for="designation2">Designation</label><br>
+                    <input type="text" name="employee2" placeholder="Enter Company Incharge 2 Name" required size="30">
+                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                    <select name="designation2" id="">
+                        <option value="" selected disabled>Select Position
+                            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;</option>
+                        <option value="">Consultant</option>
+                        <option value="">HR Coordinator</option>
+                        <option value="">HR Generalist</option>
+                        <option value="">Recruiter</option>
+                        <option value="">Recruitment Manager</option>
+                        <option value="">Talent Acquisition Specialist</option>
+                        <option value="">HR Analyst</option>
+                        <option value="">Personnel Manager</option>
+                        <option value="">Employee Relations Manager</option>
+                        <option value="">HR Director</option>
+                        <option value="">Chief HR Officer</option>
+                        <option value="">Compensation & Benefits Manager</option>
+                        <option value="">Director of Talent Acquisition </option>
+                    </select>
+                    <br><br>
+                    <label for="phone2">Contact Number</label>
+                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                    &emsp;
+                    <label for="email2">Email</label><br>
+                    <input type="tel" name="phone2" placeholder="Incharge 2 Phone Number" maxlength="10" minlength="10" size="30">
+                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                    <input type="email" name="email2" placeholder="Ex: <incharge2>@company.com" size="30">
+                    <br>
+                </p>
+            </fieldset>
+            </fieldset>
+            <br><br>
+            <p align="center">
+                <input type="submit" value="&emsp;Submit&emsp;">
+                &emsp;&emsp;
+                <input type="reset" value="&emsp;Reset&emsp;">
+            </p>
+        </form>
+    </body>
+</html>
